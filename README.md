@@ -1,1 +1,1 @@
-# mrivnak.gitgub.io
+# mrivnak.github.io
