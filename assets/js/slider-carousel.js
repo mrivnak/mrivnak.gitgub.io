@@ -3,7 +3,7 @@
 //Settings for carousel from bootstrap 4.0
 $('.carousel').carousel({
     pause: "hover",
-    interval: 5000
+    interval: 25000
 });
 
 $(".carousel-control-prev").click(function(){
