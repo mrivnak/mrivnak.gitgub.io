@@ -9,6 +9,9 @@
 .icon {
   color: #000;
 }
+.menu a.disabled {
+  cursor: not-allowed;
+}
 
 @media print {
   *,
@@ -10549,7 +10552,7 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 10px;
 }
 .project-card .project-card__info {
-  border: 1px solid #dddddd;
+  border: 1px solid #f1f1f1;
   padding: 50px 50px 60px 30px;
   height: 100%;
 }
@@ -10565,7 +10568,6 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 45px;
-  height: 50%;
 }
 .project-card .project-card__stack {
   font-family: Roboto Mono, monospace;
