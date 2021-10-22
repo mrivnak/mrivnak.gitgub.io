@@ -13,7 +13,7 @@ $('.portfolio-menu').on('click', 'a', function(event){
     previousClickedMenuLink = link;
 
     var targetTag = $(event.target).data('portfolio-target-tag');
-    var portfolioItems = $('.portfolio-cards').children();
+    var portfolioItems = $('.project-card__outer');
 
     if (targetTag === 'all') {
         portfolioItems.fadeIn({duration: 500});
