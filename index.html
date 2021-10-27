@@ -251,6 +251,43 @@
         </div>
       </div>
     </div>
+    <div class="row section__resume progress-list js-progress-list">
+      <div class="col-md-12">
+        <h3 class="progress-list__title">other skills</h3>
+      </div>
+      <div class="col-sm-2 mr-auto">
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title">Electron</span></p>
+        </div>
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title">Parallell Computing</span></p>
+        </div>
+      </div>
+      <div class="col-sm-2 mr-auto">
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title">Git VCS</span></p>
+        </div>
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title">UX Design</span></p>
+        </div>
+      </div>
+      <div class="col-sm-2 mr-auto">
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title">Shell Scripting</span></p>
+        </div>
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title">RESTful APIs</span></p>
+        </div>
+      </div>
+      <div class="col-sm-2 mr-auto">
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title">Systems Administration</span></p>
+        </div>
+        <div class="row-md-5">
+          <p><span class="progress-list__skill-title"></span></p>
+        </div>
+      </div>
+    </div>
   </section>
 <!--Resume-->
 
@@ -262,7 +299,7 @@
 				<ol class="carousel-indicators">
 					<li data-target="#carouselTestimonials" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselTestimonials" data-slide-to="1"></li>
-					<li data-target="#carouselTestimonials" data-slide-to="2"></li>
+					<!--<li data-target="#carouselTestimonials" data-slide-to="2"></li>-->
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active">
@@ -305,6 +342,7 @@
 							</div>
 						</div>
 					</div>
+          <!--
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
@@ -320,6 +358,7 @@
 							</div>
 						</div>
 					</div>
+          -->
 				</div>
 				<a class="carousel-control-prev" href="#testimonials" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -378,9 +417,10 @@
 					<div class="project-card__info">
 						<h3 class="project-card__title">LFS Package Tracking System | RVPKG</h3>
 						<p class="project-card__description">
-							TODO: Write something
 							The original version of my RiVnak Package Manager, written in Python. Built to be used on a Linux From Scratch
-							installation and thus has as few dependencies as possible.
+							installation and thus has as few dependencies as possible. Building (Beyond) Linux From Scratch entails installing hundreds of packages
+              which all have unique dependencies, this project aims to be a simple way to keep track of what has been installed
+              and which packages have unmet dependency requirements.
 						</p>
 						<p class="project-card__stack">Used stack:</p>
 						<ul class="tags">
@@ -395,9 +435,9 @@
           <div class="project-card__info">
             <h3 class="project-card__title">RTOS Testing Scripts</h3>
             <p class="project-card__description">
-              TODO: Write something
               A set of fairly basic testing applications written in C++, used in my RTOS research process. These use some Linux
-              system calls directly and will only run on a kernel with the real-time patchset applied.
+              system calls directly and will only run on a kernel with the real-time patchset applied. Utilizes Google's C++ benchmarking
+              utility to record runtime of various tasks when run with or without the realtime scheduler.
             </p>
             <p class="project-card__stack">Used stack:</p>
             <ul class="tags">
@@ -412,9 +452,9 @@
           <div class="project-card__info">
             <h3 class="project-card__title">Web Forum</h3>
             <p class="project-card__description">
-              TODO: Write something
               Web forum based on the Django Python web framework. Uses bootstrap for visual elements and sqlite for the database.
-              Created for my Web Development final group project.
+              Django is incredibly powerful and handles the database so it can be interfaced with through a Python interface, it also 
+              takes care of HTTP requests that push and pull data to and from the database. Created for my Web Development final group project.
             </p>
             <p class="project-card__stack">Used stack:</p>
             <ul class="tags">
@@ -432,9 +472,9 @@
           <div class="project-card__info">
             <h3 class="project-card__title">Game Boy Emulator</h3>
             <p class="project-card__description">
-              TODO: Write something
               Nintendo Game Boy emulator written in C++ with CMake for our Senior Project. CPU only at this point due to time
-              constraints and the ambitious scope of the project.
+              constraints and the ambitious scope of the project, the CPU instructions also need to be condensed considerably 
+              and independently tested. This project was invaluable for learning CPU archicecture in a very in-depth manner.
             </p>
             <p class="project-card__stack">Used stack:</p>
             <ul class="tags">
